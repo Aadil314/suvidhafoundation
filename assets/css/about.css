@@ -1,0 +1,33 @@
+.icon1 {
+  font-size: 400%;
+  color: #e2d7d5;
+  margin: 10px;
+  /*padding: 10;*/
+}
+
+.heading1 {
+  color: #e2d7d5;
+}
+
+.content1 {
+  color: #e2d7d5;
+}
+
+.box1 {
+  margin-bottom: 50px;
+  border-radius: 20px;
+}
+
+section {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+#promoheading {
+  font-size: 40px;
+}
+
+#donate {
+  max-width: 80%;
+}
+
