@@ -87,3 +87,7 @@ a:hover {
   background-color: #ffffff !important;
 }
 
+#logofooter {
+  max-height: 30px;
+}
+
