@@ -16,10 +16,6 @@ hr {
   border-top: 0;
 }
 
-.bg-primary {
-  background-color: rgb(255,255,255) !important;
-}
-
 .donate {
   background-color: #cf7500;
   max-width: 80%;
@@ -41,7 +37,7 @@ a:hover {
 
 @media (min-width: 992px) {
   .donate {
-    margin-top: -120px;
+    margin-top: -180px;
     border-radius: 20px;
   }
 }
@@ -85,5 +81,9 @@ a:hover {
 
 .workshopheading {
   margin-top: 10px;
+}
+
+.bg-primary {
+  background-color: #ffffff !important;
 }
 
