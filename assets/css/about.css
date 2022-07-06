@@ -51,7 +51,7 @@
 }
 
 #ethics {
-  background-color: #e4e4e4;
+  background-color: #feecd4;
 }
 
 #team {
@@ -111,7 +111,7 @@
   position: relative;
   max-width: 193px;
   height: 180px;
-  background: linear-gradient(90deg, #c9d4fc, #c2f7c6);
+  background: linear-gradient(90deg, rgb(150,51,9), rgb(207,117,0), rgb(150,51,9));
   margin: 47px 46px;
   padding: 20px 15px;
   display: flex;
@@ -175,5 +175,9 @@
 
 #ethics-crd {
   margin-left: 10%;
+}
+
+.ethics-content {
+  color: #fff0dd;
 }
 
