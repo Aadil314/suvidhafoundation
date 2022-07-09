@@ -102,3 +102,30 @@ a:hover {
   visibility: hidden;
 }
 
+.footer-link {
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+  font-size: 105%;
+}
+
+.nav-dropdown {
+  text-decoration: none;
+}
+
+#navcol {
+  padding: 20px;
+}
+
+@media (min-width: 992px) {
+  #navcol {
+    padding: 0px;
+  }
+}
+
+.brandname {
+  font-size: 110%;
+}
+
