@@ -118,7 +118,47 @@ body {
 #gallerysection {
   padding-top: 120px;
   padding-bottom: 120px;
-  background-image: url("../../assets/img/galleryBG.jpg");
+  background-image: linear-gradient(45deg, #47004c, #d15703);
   background-size: 100%;
+}
+
+/* .column:nth-child(1){        left: 0%;    }    .column:nth-child(2){        left: 0%;    }    .column:nth-child(3){        left: 0%;    }    .column:nth-child(4){        left: 0%;    } */
+
+/* -- Try into your browser if its not work delete this column style and uncomment column with nt child style -- */
+
+@media screen and (max-width: 800px) {
+  .column {
+    left: 0%;
+  }
+}
+
+/* ------------------------------------------------------------------------------------------------------------- */
+
+@media screen and (max-width: 800px) {
+  .column h2 {
+    text-align: left;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .gallery-container {
+    display: block;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .caption {
+    font-size: 20px;
+    margin: 20px 0;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .caption button {
+    font-size: 15px;
+  }
 }
 
